@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap);
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(#ffffff 0%, #666666 100%);
+}
+
+header {
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(../images/163-1637753_free-sport-wallpaper-olympic-wrestling-background.jpg);
+    background-size: cover;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.mainLogo {
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+ul {
+    padding: 20px;
+    background: rgba(0, 0, 0, 1);
+}
+
+li {
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media(max-width: 1280px) {
+    .mainLogo {
+        max-width: 50%;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    li {
+        display: block;
+        padding: 15px;
+    }
+
+}
+
+/* контент блок About Us */
+.AboutUs {
+    margin: 0 30px;
+    border-bottom: 5px solid grey;
+    justify-content: center;
+}
+
+.AboutUs h2 {
+    padding: 30px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 50px;
+}
+
+.AboutUs p {
+    max-width: 600px;
+    background-color: rgba(128, 128, 128, 0.457);
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.img-container {
+    float: right;
+}
+
+.img-container img {
+    max-width: 550px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+/* контент блок Our wrestlers */
+
+.OurWrestlers {
+    margin: 0 30px;
+    border-bottom: 5px solid grey;
+}
+
+.OurWrestlers h2 {
+    padding: 30px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 50px;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.card>img {
+    height: 300px;
+}
+
+/* контент блок News */
+.News {
+    margin: 0 30px;
+}
+
+.News h2 {
+    padding: 30px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 50px;
+}
+
+.newsIMG {
+    float: left;
+}
+
+.News img {
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+.newspaper {
+    background-color: rgba(128, 128, 128, 0.457);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+article {
+    margin: 10px 0;
+}
+
+
+/* контент блок footer */
+footer div {
+    background-color: rgb(79, 79, 79);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+
+@media(max-width: 1215px) {
+    .img-container img {
+        max-width: 380px;
+    }
+    .AboutUs p {
+        max-width: 400px;
+        background-color: rgba(128, 128, 128, 0.457);
+        border-radius: 10px;
+        padding: 15px;
+        display: inline-block;
+    }
+
+}
